@@ -1,0 +1,72 @@
+p{
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+body{
+    width: 310px;
+    height: 360px;
+    border: solid lightgray 1px;
+    border-radius: 2%;
+}
+
+.card-info-wrapper{
+    margin: 15px 15px 0px;
+
+}
+
+.card-main .card-main-upper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.card-main .card-main-upper .card-time-wrapper{
+    display: flex;
+
+}
+
+.card-main .card-main-upper .card-price-wrapper{
+    display: flex;
+}
+
+.card-main .card-main-upper .card-time-wrapper .card-time-image >img{
+    width: 20px;
+    height: 20px;
+}
+
+.card-main .card-main-upper .card-price-wrapper .card-price-image >img{
+    width: 20px;
+    height: 20px;
+}
+/* 上二つ、クラスの選択が長すぎる気がします・・ */
+
+.card-main-bottom .card-percentage-bars{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-main-bottom .card-percentage-bars .card-percentage-bar1{
+    height: 10px;
+    border-radius: 20px;
+    width: 220px;
+    background-color: lightgray;
+    position: absolute;
+    z-index: -1;
+}
+    
+.card-main-bottom .card-percentage-bars .card-percentage-bar2{
+    height: 10px;
+    border-radius: 20px;
+    width: 60px;
+    background-color: palevioletred;
+    position: relative;
+}
+
+.card-main-bottom{
+    display: flex;
+    justify-content: space-between;
+}
